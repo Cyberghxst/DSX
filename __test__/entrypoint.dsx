@@ -1,0 +1,3 @@
+define var message = "Hello world!"
+
+echo message

@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "declaration": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "incremental": true,
+        "module": "CommonJS",
+        "target": "ES2020",
+        "outDir": "lang",
+        "rootDir": "src",
+        "paths": {
+            "@types": ["./Typings.d.ts", "node_modules/@types", "lang/index.d.ts"],
+            "index": ["lang/index.js", "src/index.ts"]
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "dsx",
+  "version": "1.0.0",
+  "description": "A custom-interpreted language written in TypeScript.",
+  "main": "./lang/index.js",
+  "types": "./lang/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "pnpm build -w"
+  },
+  "keywords": [
+    "language",
+    "interpreted",
+    "transpiled",
+    "ast"
+  ],
+  "author": "Cyberghxst",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "tslib": "^2.6.2"
+  }
+}
